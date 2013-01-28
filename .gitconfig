@@ -1,0 +1,8 @@
+[user]
+	name = Janne Kiiski
+[color]
+	ui = auto
+[log]
+	decorate = short
+[alias]
+	logg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold cyan)<%an>%Creset' --abbrev-commit --date=relative

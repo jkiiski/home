@@ -1,0 +1,7 @@
+set background=dark
+set noexpandtab
+set colorcolumn=80
+set shiftwidth=4
+set tabstop=4
+colorscheme solarized
+set t_Co=256
