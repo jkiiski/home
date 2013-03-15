@@ -39,5 +39,10 @@ source $ZSH/oh-my-zsh.sh
 eval `dircolors ~/.dircolors`
 
 unsetopt correct_all
+setopt rmstarsilent
+
+alias -s c=vim
+alias -s h=vim
+alias -s txt=vim
 
 export EDITOR=vim

@@ -4,5 +4,7 @@
 	ui = auto
 [log]
 	decorate = short
+[push]
+	default = tracking
 [alias]
 	logg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold cyan)<%an>%Creset' --abbrev-commit --date=relative
