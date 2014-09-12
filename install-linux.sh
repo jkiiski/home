@@ -15,10 +15,6 @@ rm -rf gnome-terminal-colors-solarized
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 
 git clone https://github.com/jkiiski/vim.git ~/.vim
-cd ~/.vim
-git submodule init
-git submodule update
-cd -
 
 # copy configs...
 
