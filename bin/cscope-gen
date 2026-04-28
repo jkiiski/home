@@ -1,4 +1,12 @@
 #!/bin/sh
 
-find $@ -type f \( -name Kconfig -o -name Makefile -o -name Buildfile -o -name \*.h -o -name \*.c -o -iname \*.cpp -o -iname \*.s \) -exec readlink -f {} \; >cscope.files
+find $@ -type f \( \
+	-name Kconfig -o \
+	-name Makefile -o  \
+	-name Buildfile -o  \
+	-iname \*.h  -o \
+	-iname \*.c -o  \
+	-iname \*.cpp -o  \
+	-iname \*.s \)  \
+	-exec readlink -f {} \; >cscope.files
 cscope -k -b -i cscope.files
